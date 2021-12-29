@@ -1,0 +1,163 @@
+/* html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+} */
+body {
+  font-size: 20px;
+  background-color: #fff9c4;
+  color: #212121;
+  margin: 0;
+}
+.btn {
+  background: #212121;
+  font-family: "Lexend Mega", sans-serif;
+  font-size: 30px;
+  color: whitesmoke;
+  padding: 20px 45px 20px 45px;
+  text-decoration: none;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+.btn:hover {
+  background: #fbc02d;
+  color: #212121;
+}
+.chorus {
+  font-family: "Kalam", cursive;
+  font-weight: 700;
+  font-size: 30px;
+  color: #ff9800;
+}
+.chorusLeft {
+  font-family: "Kalam", cursive;
+  font-weight: 700;
+  font-size: 30px;
+  color: #ff9800;
+  text-align: left;
+}
+.chorusRight {
+  font-family: "Kalam", cursive;
+  font-weight: 700;
+  font-size: 30px;
+  color: #ff9800;
+  text-align: right;
+}
+.column {
+  width: 48%;
+  float: left;
+}
+.divbtn {
+  width: 100%;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.fichaTecnica {
+  font-family: "Lexend Mega", sans-serif;
+  background-color: rgba(255, 195, 0, 0.5);
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+  border: #212121 3px solid;
+  border-radius: 5px;
+}
+.fichaTecnica__ul {
+  list-style: none;
+}
+footer {
+  background-color: #212121;
+  color: whitesmoke;
+  height: 180px;
+}
+footer p {
+  font-family: "Lexend Mega", sans-serif;
+  text-align: right;
+  padding: 10px;
+}
+header {
+  background-color: #ffeb3b;
+}
+h1 {
+  font-family: "Lobster", cursive;
+  text-align: center;
+}
+h2 {
+  font-family: "Lobster", cursive;
+  text-align: center;
+  text-shadow: 0px 10px 30px;
+}
+hr {
+  background: #212121;
+  width: 50%;
+  border: 1.5px solid #212121;
+  border-radius: 5px;
+}
+.lyrics {
+  white-space: pre-wrap;
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: -70px;
+}
+#musiquita {
+  text-align: center;
+  padding: 20px;
+}
+nav {
+  background-color: #ff9800;
+  text-transform: capitalize;
+  padding: 1vh;
+  text-align: center;
+  margin-bottom: 30px;
+}
+nav ul {
+  font-family: "Lexend Mega", sans-serif;
+  /* padding: 20px; */
+  margin-top: 40px;
+}
+nav ul li {
+  height: 50px;
+  display: inline-block;
+}
+nav ul li a {
+  background: #212121;
+  color: whitesmoke;
+  text-decoration: none;
+  padding: 10px;
+  margin-top: 100px;
+  border-radius: 5px;
+}
+nav ul li a:hover {
+  background: #ffeb3b;
+  color: #212121;
+}
+.portada {
+  display: block;
+  margin: 0 auto;
+  width: 30%;
+  border-radius: 5%;
+  border: solid 3px #212121;
+  margin-top: 50px;
+}
+.portadaTrasera {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  border-radius: 5%;
+  border: solid 3px #212121;
+  margin-top: 50px;
+}
+p {
+  font-family: "Kalam", cursive;
+  text-align: center;
+}
+.titulo {
+  font-family: "Lexend Mega", sans-serif;
+  text-align: center;
+  margin: 0%;
+  margin-top: 30px;
+}
